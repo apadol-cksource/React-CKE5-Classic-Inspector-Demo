@@ -1,0 +1,21 @@
+{
+  "name": "cke5-react-classic-inspector",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^35.1.0",
+    "@ckeditor/ckeditor5-inspector": "^4.1.0",
+    "@ckeditor/ckeditor5-react": "^5.0.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}
