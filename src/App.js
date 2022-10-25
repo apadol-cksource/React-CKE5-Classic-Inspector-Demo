@@ -9,7 +9,7 @@ export default function App() {
     <div className="App">
       <CKEditor
         editor={ClassicEditor}
-        data="<p>Hello from CKEditor 5!</p><h1>Try the inspector below</h1><ul><li>Check the Model</li><li>See the View</li><li>Check available commands</li></ul>"
+        data="<p>Hello from CKEditor 5!</p><h2>Try the inspector below</h2><ul><li>Check the Model</li><li>See the View</li><li>Check available commands</li></ul>"
         onReady={(editor) => {
           console.log('CKEditor React Component is ready to use!', editor);
           CKEditorInspector.attach(editor);
